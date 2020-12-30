@@ -1,3 +1,24 @@
+## Install
+
+cp .env.example .env  
+
+DB_CONNECTION=mongodb
+DB_HOST="your mongodb host"
+DB_PORT="your mongodb port"
+DB_DATABASE="your mongo db name"
+DB_USERNAME="your mongo db username"
+DB_PASSWORD="your mongodb password"
+
+php artisan migrate
+php artisan serve
+
+
+project is work :) best regards
+
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
